@@ -8,12 +8,18 @@ namespace ConsoleApp1
         // intellisense
         static void Main(string[] args)
         {
-            //Omitir System
-            //System.Console.WriteLine("Bienvenidos al bootcamp de C#");
-            Console.WriteLine("Bienvenidos a C#"); //Esto imprime un mensaje en consola
-            /*
-             * Muchas lineas
-            */
+            int edad = 19;
+
+            edad--;
+
+            //edad++;
+
+            //Console.WriteLine("Tienes una edad de " + edad + " años");
+
+            Console.WriteLine($"Tienes una edad de {++edad} años");
+
+
+
         }
     }
 }
