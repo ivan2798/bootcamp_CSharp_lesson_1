@@ -8,15 +8,25 @@ namespace ConsoleApp1
         // intellisense
         static void Main(string[] args)
         {
-            int edad = 19;
+            double temperatura = 34.5;
 
-            edad--;
+            int temperaturaMexico;
 
-            //edad++;
+            //conversión explícita
+            // casting
 
-            //Console.WriteLine("Tienes una edad de " + edad + " años");
+            temperaturaMexico = (int) temperatura;
 
-            Console.WriteLine($"Tienes una edad de {++edad} años");
+            //conversión implícita
+            int habitantesCiudad = 100000000;
+
+            long habitantesCiudad21018 = habitantesCiudad;
+
+            float pesoMaterial = 5.78F;
+
+            double pesoMaterialPrec = pesoMaterial;
+            
+            Console.WriteLine($"{temperaturaMexico}, {habitantesCiudad}, {pesoMaterialPrec}");
 
 
 
