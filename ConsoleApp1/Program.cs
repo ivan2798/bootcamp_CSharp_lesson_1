@@ -10,7 +10,10 @@ namespace ConsoleApp1
         {
             //Omitir System
             //System.Console.WriteLine("Bienvenidos al bootcamp de C#");
-            Console.WriteLine("Bienvenidos a C#");
+            Console.WriteLine("Bienvenidos a C#"); //Esto imprime un mensaje en consola
+            /*
+             * Muchas lineas
+            */
         }
     }
 }
