@@ -8,27 +8,15 @@ namespace ConsoleApp1
         // intellisense
         static void Main(string[] args)
         {
-            double temperatura = 34.5;
+            Console.WriteLine("Introduce el primer número");
 
-            int temperaturaMexico;
+            int num1 = int.Parse(Console.ReadLine());
 
-            //conversión explícita
-            // casting
+            Console.WriteLine("Introduce el segundo número");
 
-            temperaturaMexico = (int) temperatura;
+            int num2 = int.Parse(Console.ReadLine());
 
-            //conversión implícita
-            int habitantesCiudad = 100000000;
-
-            long habitantesCiudad21018 = habitantesCiudad;
-
-            float pesoMaterial = 5.78F;
-
-            double pesoMaterialPrec = pesoMaterial;
-            
-            Console.WriteLine($"{temperaturaMexico}, {habitantesCiudad}, {pesoMaterialPrec}");
-
-
+            Console.WriteLine("El resultado es: " + (num1 + num2));
 
         }
     }
