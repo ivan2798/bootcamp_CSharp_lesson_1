@@ -8,15 +8,15 @@ namespace ConsoleApp1
         // intellisense
         static void Main(string[] args)
         {
-            Console.WriteLine("Introduce el primer número");
+            const double PI = 3.1416;
 
-            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduce la medida del radio");
 
-            Console.WriteLine("Introduce el segundo número");
+            double radio = double.Parse(Console.ReadLine());
 
-            int num2 = int.Parse(Console.ReadLine());
+            double area = Math.Pow(PI, radio);
 
-            Console.WriteLine("El resultado es: " + (num1 + num2));
+            Console.WriteLine($"El area del circulo es: {area}");
 
         }
     }
